@@ -6,7 +6,7 @@
 .pnp.js
 
 #ignore a specific file
-./src/firebase_config.js
+/src/firebase_config.js
 
 # testing
 /coverage
