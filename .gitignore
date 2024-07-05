@@ -2,9 +2,11 @@
 
 # dependencies
 /node_modules
-/firebase_config
 /.pnp
 .pnp.js
+
+#ignore a specific file
+./src/firebase_config.js
 
 # testing
 /coverage
