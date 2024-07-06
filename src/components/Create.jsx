@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import { auth } from '../firebase_config';
 import { createUserWithEmailAndPassword } from 'firebase/auth';
+import { Link } from 'react-router-dom';
+// import Login from './Login';
 
 export default function Create() {
 
@@ -29,6 +31,8 @@ export default function Create() {
 
             <button type='submit'>Create</button>
         </form>
+
+        <p>Already have an account? <Link to='/login'>Login</Link> </p>
     </div>
   )
 }
