@@ -22,7 +22,7 @@ export default function Main() {
         <div>
             {user ? (
                 <div>
-                    <p>Welcome, {user.email} !!</p>
+                    <p className='text-cyan-900'>Welcome, {user.email} !!</p>
                     <button onClick={logOut}>Log Out</button>
                 </div>
             ) : (

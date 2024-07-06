@@ -21,9 +21,9 @@ export default function Login() {
     };
 
     return (
-        <div>
+        <div className='flex flex-col'>
             <form onSubmit={loginAccount}>
-                <h1>Login</h1>
+                <h1 className='text-green-700'>Login</h1>
                 <input 
                     type='email' 
                     placeholder='Enter your email' 
