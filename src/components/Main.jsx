@@ -21,9 +21,9 @@ export default function Main() {
     return (
         <div>
             {user ? (
-                <div>
-                    <p className='text-cyan-900'>Welcome, {user.email} !!</p>
-                    <button onClick={logOut}>Log Out</button>
+                <div className=' flex flex-row p-10 justify-between'>
+                    <p className='text-white text-xl text-left'>Welcome, {user.email} !!</p>
+                    <button onClick={logOut} className='py-2 px-5 rounded-lg cursor-pointer bg-white text-black border border-transparent hover:bg-slate-700 hover:text-white hover:border-white transition duration-300'>Log Out</button>
                 </div>
             ) : (
                 <p>You are not logged in</p>
