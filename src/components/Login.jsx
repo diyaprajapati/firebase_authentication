@@ -56,9 +56,7 @@ export default function Login() {
                 <div className=' text-rose-700 hover:text-rose-800 underline hover:font-semibold hover:transition duration-300 hover:ease-in'>
                     <Link to='/'>Create</Link>
                 </div>
-                
             </div>
-
         </div>
     );
 }
